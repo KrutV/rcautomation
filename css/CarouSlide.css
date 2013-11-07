@@ -1,0 +1,52 @@
+/*customisation styles*/
+	.slider-nav .active {font-weight:bold;}
+	.s1 {position:relative; width:980px; }
+	.s1 .slider-wrapper {border: 1px solid #ccc; position:relative;}
+	.s1 .slider-wrapper {width:980px; height:295px;}
+	.s1 .slider-holder {width:980px; display:block; }
+	.s1 .slider-holder li.slide {width:750px;  padding-right:210px;}
+	.s1 .slider-nav {position:absolute; right:-1px; top:0; z-index:1000; width:200px; padding:0; margin:0; border:1px solid #ccc; border-width:1px 0 0 1px; background-color:#fff;}
+	.s1 .slider-nav li {list-style:none; height:36px; margin:0; padding:0;border:1px solid #ccc; border-width:0 0 1px;}
+	.s1 .slider-nav li a {display:block; width:180px; padding:10px 10px; }
+	.s1 .slider-nav li a:hover,
+	.s1 .slider-nav li.active a { background:url(../images/tab-hover.gif); background-color:#E0E8EB; height:16px;}
+	
+	.s2 {position:relative; height:200px;}
+	.s2 .slider-wrapper {border: 1px solid #ccc; position:relative; height:200px;}
+	.s2 .slider-holder {display:block; height:200px;}
+	.s2 .slider-holder li.slide {height:190px; padding:5px; width:390px; background-color:#fff;}
+	.s2 .slider-nav {position:absolute; bottom:5px; z-index:100; margin-bottom:0; }
+	.s2 .slider-nav li {list-style:none; float:left;}
+	.s2 .slider-nav a:link,
+	.s2 .slider-nav a:visited {border:none; text-indent:-9999px; overflow:hidden; width:40px; height:40px; display:block; margin:3px 11px 3px 3px;}
+	.s2 .slider-nav .active a:link,
+	.s2 .slider-nav .active a:visited,
+	.s2 .slider-nav a:hover,
+	.s2 .slider-nav a:focus,
+	.s2 .slider-nav a:active {margin:0 8px 0 0; border:3px solid #00f;}
+	
+	.s3 {position:relative; height:200px;}
+	.s3 .slider-wrapper {border: 1px solid #ccc; position:relative; height:200px; width:800px;}
+	.s3 .slider-holder {display:block; height:200px; width:800px;}
+	.s3 .slider-holder li.slide {height:190px; padding:5px; width:390px; background-color:#fff;}
+	.s3 .slider-nav {position:absolute; bottom:5px; z-index:100; margin-bottom:0; }
+	.s3 .slider-nav li {list-style:none; float:left;}
+	.s3 .slider-nav a:link,
+	.s3 .slider-nav a:visited {border:none; text-indent:-9999px; overflow:hidden; width:40px; height:40px; display:block; margin:3px 11px 3px 3px;}
+	.s3 .slider-nav .active a:link,
+	.s3 .slider-nav .active a:visited,
+	.s3 .slider-nav a:hover,
+	.s3 .slider-nav a:focus,
+	.s3 .slider-nav a:active {margin:0 8px 0 0; border:3px solid #00f;}
+
+
+/* required styles for carouSlide */
+.slider-wrapper {position:relative; overflow:hidden; width:400px; height:400px;}
+.slider-holder {overflow:hidden; width:400px; display:block; height:400px; padding:0; margin:0;}
+.slider-holder li {padding:10px; margin:0; display:block; width:700px; height:380px; float:left; list-style:none; color:#000;}
+.slider-holder ul ul {height:auto; padding-left:18px;}
+.slider-holder li li {padding:0; margin:0; display:list-item; width:auto; height:auto; float:none; list-style:disc;}
+.s-active {position:relative; top:0; left:0;}
+.hed-font { font:bold 18px Arial, Helvetica, sans-serif; color:#2e4c8e; text-decoration:none;}
+.hed-font-tab { font:bold 12px Arial, Helvetica, sans-serif; color:#454545; text-decoration:none;}
+.hed-font-nor { font:normal 13px Arial, Helvetica, sans-serif; color:#454545; text-decoration:none;}
